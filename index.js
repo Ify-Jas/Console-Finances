@@ -109,8 +109,13 @@ for (let i=0; i < sales.length; i++) {
 
     console.log(sum)
 }
-let diff = 0
+
+let diff = []
 for (let i=0; i < sales.length; i++) {
-    diff += sales[1] - sales[0]; 
-    console.log(diff)
+    diff.push (sales[i] - sales[i - 1])
+      
+       console.log(diff)
 }
+diff[0] = sales[0]
+console.log(diff)
+
