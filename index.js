@@ -87,35 +87,3 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-console.log(finances.length);
-
-
-for (let i=0; i < finances.length; i++) {
-    console.log(finances[i][1])
-}
-
-let sales = []
-for (let i=0; i < finances.length; i++) {
-    sales.push(finances[i][1]);
-    console.log(sales)
-}
-
-console.log(sales.length);
-
-let sum = 0;
-
-for (let i=0; i < sales.length; i++) {
-    sum += sales[i]
-
-    console.log(sum)
-}
-
-let diff = []
-for (let i=0; i < sales.length; i++) {
-    diff.push (sales[i] - sales[i - 1])
-      
-       console.log(diff)
-}
-diff[0] = sales[0]
-console.log(diff)
-
