@@ -14,6 +14,8 @@ To get the result, I used excel analysis to analyse my data, I then went about u
 
 I broke down my solution in stages and I used comments on the script to allow myself and others understand the reasoning behind some of the codes.
 
+My analysis is contained in the mylogic.js file.
+
 
 
 
